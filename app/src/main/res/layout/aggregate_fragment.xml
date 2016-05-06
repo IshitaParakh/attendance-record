@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fafafa">
+
+    <ScrollView android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <!--android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"-->
+
+            <TableRow android:id="@+id/row1">
+
+                <TextView
+                    android:text="RFID"
+                    android:padding="10dip"
+                    android:textStyle="bold|italic"
+                    android:textColor="#080707"
+                    android:textSize="15dp" />
+                <TextView
+                    android:text="STUDENT NAME"
+                    android:padding="10dip"
+                    android:textStyle="bold|italic"
+                    android:textColor="#080707"
+                    android:textSize="15dp" />
+                <TextView
+                    android:text="Aggregate %"
+                    android:padding="10dip"
+                    android:textStyle="bold|italic"
+                    android:textColor="#080707"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow android:id="@+id/row2">
+
+                <TextView
+                    android:text="Y13UC340"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/rfidView2"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:text="Samriddhi Khandelwal"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/nameView2" />
+                <TextView
+                    android:padding="10dip"
+                    android:id="@+id/aggView2"
+                    />
+            </TableRow>
+
+            <TableRow android:id="@+id/row3">
+                <TextView
+                    android:text="Y13UC341"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/rfidView3" />
+                <TextView
+                    android:text="Ishita Parakh"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/nameView3" />
+                <TextView
+                    android:padding="10dip"
+                    android:id="@+id/aggView3"
+                    />
+            </TableRow>
+
+            <TableRow android:id="@+id/row4">
+                <TextView
+                    android:text="14UCC017"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/rfidView4" />
+                <TextView
+                    android:text="Lipi Chaturvedi"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/nameView4" />
+                <TextView
+                    android:padding="10dip"
+                    android:id="@+id/aggView4"
+                    />
+            </TableRow>
+
+            <TableRow android:id="@+id/row5">
+                <TextView
+                    android:text="14UCC035"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/rfidView5" />
+                <TextView
+                    android:text="Sameeksha Gupta"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/nameView5" />
+                <TextView
+                    android:padding="10dip"
+                    android:id="@+id/aggView5"
+                    />
+            </TableRow>
+
+            <TableRow android:id="@+id/row6">
+                <TextView
+                    android:text="Y12UC011"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/rfidView6" />
+                <TextView
+                    android:text="Aditi Agarwal"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/nameView6" />
+                <TextView
+                    android:padding="10dip"
+                    android:id="@+id/aggView6"
+                    />
+            </TableRow>
+
+            <TableRow android:id="@+id/row7">
+
+                <TextView
+                    android:text="RFID"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/rfidView7" />
+                <TextView
+                    android:text="Student 6"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/nameView7" />
+            </TableRow>
+
+            <TableRow android:id="@+id/row8">
+
+                <TextView
+                    android:text="RFID"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/rfidView8" />
+                <TextView
+                    android:text="Student 7"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/nameView8" />
+            </TableRow>
+
+            <TableRow android:id="@+id/row9">
+
+                <TextView
+                    android:text="RFID"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/rfidView9" />
+                <TextView
+                    android:text="Student 8"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/nameView9" />
+            </TableRow>
+
+            <TableRow android:id="@+id/row10">
+
+                <TextView
+                    android:text="RFID"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/rfidView10" />
+                <TextView
+                    android:text="Student 9"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    android:id="@+id/nameView10" />
+            </TableRow>
+
+            <TableRow android:id="@+id/row11">
+
+                <TextView
+                    android:text="RFID"
+                    android:padding="10dip"
+                    android:textColor="#080707"/>
+                <TextView
+                    android:text="Student 10"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    />
+            </TableRow>
+
+            <TableRow android:id="@+id/row12">
+
+                <TextView
+                    android:text="RFID"
+                    android:padding="10dip"
+                    android:textColor="#080707"/>
+                <TextView
+                    android:text="Student 11"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    />
+            </TableRow>
+
+            <TableRow android:id="@+id/row13">
+
+                <TextView
+                    android:text="RFID"
+                    android:padding="10dip"
+                    android:textColor="#080707"/>
+                <TextView
+                    android:text="Student 12"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    />
+            </TableRow>
+
+            <TableRow android:id="@+id/row14">
+
+                <TextView
+                    android:text="RFID"
+                    android:padding="10dip"
+                    android:textColor="#080707"/>
+                <TextView
+                    android:text="Student 13"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    />
+            </TableRow>
+
+            <TableRow android:id="@+id/row15">
+
+                <TextView
+                    android:text="RFID"
+                    android:padding="10dip"
+                    android:textColor="#080707"/>
+                <TextView
+                    android:text="Student 11"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    />
+            </TableRow>
+
+            <TableRow android:id="@+id/row16">
+
+                <TextView
+                    android:text="RFID"
+                    android:padding="10dip"
+                    android:textColor="#080707"/>
+                <TextView
+                    android:text="Student 12"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    />
+            </TableRow>
+
+            <TableRow android:id="@+id/row17">
+
+                <TextView
+                    android:text="RFID"
+                    android:padding="10dip"
+                    android:textColor="#080707"/>
+                <TextView
+                    android:text="Student 13"
+                    android:padding="10dip"
+                    android:textColor="#080707"
+                    />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
